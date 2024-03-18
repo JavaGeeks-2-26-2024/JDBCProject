@@ -31,16 +31,16 @@ public class MainController {
         	sc.nextLine();
      		switch (option) {
      		case 1:
-     			studentService.createStudent();
+     			studentService.createStudent(sc);
      			break;
      		case 2:
                  studentService.getAllstudents();
      			break;
      		case 3:
-                  studentService.updateStudent();
+                  studentService.updateStudent(sc);
      			break;
      		case 4:
-     			studentService.deleteStudent();
+     			studentService.deleteStudent(sc);
      			break;
      		case 5:
      			stop = true;

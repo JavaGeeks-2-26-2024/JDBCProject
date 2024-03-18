@@ -18,10 +18,10 @@ public class StudentService {
 	}
 	
 	
-	public void createStudent() {
+	public void createStudent(Scanner sc) {
 		
 		
-		Scanner sc = new Scanner(System.in);
+	
 		System.out.println("enter id:");
 		int id = sc.nextInt();
 		sc.nextLine();
@@ -66,9 +66,9 @@ public class StudentService {
 	}
 	
 	
-	public void updateStudent() {
+	public void updateStudent(Scanner sc) {
 		
-		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("Enter which id need to be updated:");
 		int id = sc.nextInt();
 		sc.nextLine();
@@ -95,10 +95,10 @@ public class StudentService {
 		
 	}
 	
-	public void deleteStudent() {
+	public void deleteStudent(Scanner sc) {
 		
 		
-		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("Enter which id need to delete:");
 		int id = sc.nextInt();
 		sc.nextLine();
